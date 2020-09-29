@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/ratingsdata")
-public class RatingsDataResource {
+public class RatingResource {
 
     @RequestMapping("/{movieId}")
     public Rating getRating(@PathVariable("movieId") String movieId) {
